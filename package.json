@@ -1,0 +1,29 @@
+{
+    "name": "vue-state",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite --open --port 3000",
+        "build": "vite build",
+        "preview": "vite preview",
+        "server": "json-server --watch src/users.json --port 8000",
+        "test": "vitest"
+    },
+    "dependencies": {
+        "axios": "^1.7.9",
+        "vue": "^3.5.13",
+        "vue-state": "^0.1.0",
+        "vuex": "^4.1.0"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^6.6.3",
+        "@testing-library/vue": "^8.1.0",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vue/test-utils": "^2.4.6",
+        "axe-core": "^4.10.2",
+        "json-server": "^1.0.0-beta.3",
+        "vite": "^6.0.3",
+        "vitest": "^2.1.8"
+    }
+}
